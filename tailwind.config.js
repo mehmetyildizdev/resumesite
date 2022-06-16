@@ -14,7 +14,7 @@ module.exports = {
         "dark-3": "#A7A7A7",
         "light-1": "#F8F9FA",
         "light-2": "#EFEFF5",
-        "light-3": "DEDDEB",
+        "light-3": "#DEDDEB",
         "darkgold-1": "281C02",
         "lightgold-1": "#FFFEF0",
         "rosegold-1": "#B76E79",

@@ -14,7 +14,7 @@ function Skills() {
               <div className=" shadow-lg shadow-gold-2 rounded-xl flex items-center justify-center py-8">
                 <Image
                   className="animation:bounce"
-                  src="/../public/assets/pp.png"
+                  src="/assets/pp.png"
                   alt="/"
                   width="200px"
                   height="200px"
@@ -25,7 +25,7 @@ function Skills() {
                 <div className="py-4">
                   <div className="grid grid-cols-3">
                     <Image
-                      src="/../public/assets/fsm.png"
+                      src="/assets/fsm.png"
                       alt="/"
                       width="120px"
                       height="80px"
@@ -46,7 +46,7 @@ function Skills() {
                   </div>
                   <div className="grid grid-cols-3 mt-4">
                     <Image
-                      src="/../public/assets/au.png"
+                      src="/assets/au.png"
                       alt="/"
                       width="120px"
                       height="80px"
@@ -168,7 +168,7 @@ function Skills() {
                         <div className="grid grid-cols-2 place-items-center">
                           <div className="m-auto">
                             <Image
-                              src="/../public/assets/certificates/cert-html.jpg"
+                              src="/assets/certificates/cert-html.jpg"
                               alt="/"
                               width="120px"
                               height="80px"
@@ -187,7 +187,7 @@ function Skills() {
                         <div className="grid grid-cols-2 place-items-center">
                           <div className="m-auto">
                             <Image
-                              src="/../public/assets/certificates/cert-css.jpg"
+                              src="/assets/certificates/cert-css.jpg"
                               alt="/"
                               width="120px"
                               height="80px"
@@ -206,7 +206,7 @@ function Skills() {
                         <div className="grid grid-cols-2 place-items-center">
                           <div className="m-auto">
                             <Image
-                              src="/../public/assets/certificates/cert-js.jpg"
+                              src="/assets/certificates/cert-js.jpg"
                               alt="/"
                               width="120px"
                               height="80px"
@@ -225,7 +225,7 @@ function Skills() {
                         <div className="grid grid-cols-2 place-items-center">
                           <div className="m-auto">
                             <Image
-                              src="/../public/assets/certificates/cert-react.jpg"
+                              src="/assets/certificates/cert-react.jpg"
                               alt="/"
                               width="120px"
                               height="80px"

@@ -9,7 +9,7 @@ function About() {
         <div className="w-full h-auto m-auto shadow-lg shadow-gold-2 rounded-xl flex items-center justify-center p-8 hover:scale-105 ease-in duration-500">
           <Image
             className="rounded-full"
-            src="/../public/assets/ppdrawing.jpg"
+            src="/assets/ppdrawing.jpg"
             alt="/"
             width="200px"
             height="200px"
@@ -35,7 +35,7 @@ function About() {
           </p>
           <div className="hidden items-center gap-8 py-4">
             <button className="px-6 py-2">Check my blog</button>
-            <Link href="/../public/assets/CV_Mehmet_YILDIZ">
+            <Link href="/assets/CV_Mehmet_YILDIZ">
               <a target="_blank">
                 <button className="px-6 py-2">Download my résumé</button>
               </a>

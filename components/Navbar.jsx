@@ -44,12 +44,7 @@ function Navbar() {
     >
       <div className="flex justify-between items-center  w-full p-2 2xl:px-16">
         <Link href="#">
-          <Image
-            src="/../public/assets/logo-light.png"
-            alt="/"
-            width="240"
-            height="60"
-          />
+          <Image src="/assets/logo-light.png" alt="/" width="240" height="60" />
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -86,12 +81,7 @@ function Navbar() {
         >
           <div>
             <div className="bg-black flex w-full justify-between items-center p-5">
-              <Image
-                src="/../public/assets/logo.gif"
-                width="95"
-                height="40"
-                alt="/"
-              />
+              <Image src="/assets/logo.gif" width="95" height="40" alt="/" />
               <div
                 onClick={handleNav}
                 className="rounded-full p-1 shadow-md shadow-silver-1  cursor-pointer"

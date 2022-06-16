@@ -17,7 +17,7 @@ function Main() {
             <div className="capitalize pt-10">
               <h6>Welcome to my website dear visitor</h6>
               <h1 className="py-4 text-light-1">
-                Hello, I'm{" "}
+                Hello, I&apos;m
                 <span className="text-gold-1 hover:animate-pulse">Mehmet</span>
               </h1>
               <h1>A front-end web developer</h1>

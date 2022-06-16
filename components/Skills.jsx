@@ -26,6 +26,7 @@ function Skills() {
                   <div className="grid grid-cols-3">
                     <Image
                       src="/../public/assets/fsm.png"
+                      alt="/"
                       width="120px"
                       height="80px"
                       className="object-scale-down col-span-1"
@@ -35,7 +36,7 @@ function Skills() {
                         Fatih Sultan Mehmet Vakif University
                       </p>
                       <p className="text-[12px]">
-                        Bachelor's Degree - History of Science
+                        Bachelor&apos;s Degree - History of Science
                       </p>
                       <p className="text-[12px]">2015 - 2018</p>
                       <p className="text-[12px]">
@@ -46,6 +47,7 @@ function Skills() {
                   <div className="grid grid-cols-3 mt-4">
                     <Image
                       src="/../public/assets/au.png"
+                      alt="/"
                       width="120px"
                       height="80px"
                       className="object-scale-down col-span-1"
@@ -167,6 +169,7 @@ function Skills() {
                           <div className="m-auto">
                             <Image
                               src="/../public/assets/certificates/cert-html.jpg"
+                              alt="/"
                               width="120px"
                               height="80px"
                             />
@@ -185,6 +188,7 @@ function Skills() {
                           <div className="m-auto">
                             <Image
                               src="/../public/assets/certificates/cert-css.jpg"
+                              alt="/"
                               width="120px"
                               height="80px"
                             />
@@ -203,6 +207,7 @@ function Skills() {
                           <div className="m-auto">
                             <Image
                               src="/../public/assets/certificates/cert-js.jpg"
+                              alt="/"
                               width="120px"
                               height="80px"
                             />
@@ -221,6 +226,7 @@ function Skills() {
                           <div className="m-auto">
                             <Image
                               src="/../public/assets/certificates/cert-react.jpg"
+                              alt="/"
                               width="120px"
                               height="80px"
                             />

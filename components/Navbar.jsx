@@ -102,7 +102,7 @@ function Navbar() {
 
             <div className="border-b border-spacing-20 border-gold-1 my-4">
               <p className="w-[85%] md:w-[85%] px-6 pb-3">
-                Let's build your web identity together!
+                Let&apos;s build your web identity together!
               </p>
             </div>
           </div>
@@ -134,7 +134,7 @@ function Navbar() {
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-wider text-gold-1">
-                Let's Connect!
+                Let&apos;s Connect!
               </p>
               <div className="flex items-center justify-between my-4">
                 <a

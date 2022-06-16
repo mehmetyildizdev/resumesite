@@ -21,9 +21,9 @@ function About() {
           <p className="py-2">
             I have a passion for computers and history since childhood. While
             having opportunity to pursue education mainly in history, I have
-            always been the person to "go to" among my social circle about
-            computers. This could be about buying, fixing, using devices, or
-            installing, learning, using all types of software.
+            always been the person to &quot;go to&quot; among my social circle
+            about computers. This could be about buying, fixing, using devices,
+            or installing, learning, using all types of software.
           </p>
           <p className="py-2">
             With the help of my interest in constant learning, I decided to turn

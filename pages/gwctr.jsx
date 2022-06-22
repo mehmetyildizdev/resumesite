@@ -67,6 +67,7 @@ function tbtk() {
                   height="9652px"
                   objectFit="contain"
                   className="cursor-pointer py-8"
+                  priority={true}
                 />
               </a>
             </Link>

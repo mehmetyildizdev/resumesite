@@ -4,8 +4,8 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about" className="w-full sm:h-screen p-2 flex items-center py-16">
-      <div className="max-w-[1280px] pt-12 m-auto sm:grid grid-cols-3 gap-8">
+    <div id="about" className="w-full sm:h-screen p-2 flex items-center pt-24">
+      <div className="max-w-[1280px] m-auto sm:grid grid-cols-3 gap-8">
         <div className="w-full h-auto m-auto shadow-lg shadow-gold-2 rounded-xl flex items-center justify-center p-8 hover:scale-105 ease-in duration-500">
           <Image
             className="rounded-full"

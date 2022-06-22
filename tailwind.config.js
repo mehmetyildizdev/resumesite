@@ -24,6 +24,9 @@ module.exports = {
         "silver-2": "#D9DAD9",
         "silver-3": "#E6E6E6",
       },
+      backgroundImage: {
+        "pattern-1": "url('/assets/pattern.png')",
+      },
     },
   },
   plugins: [],

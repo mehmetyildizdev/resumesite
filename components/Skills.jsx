@@ -4,10 +4,10 @@ import React from "react";
 
 function Skills() {
   return (
-    <div id="skills" className="w-full sm:h-screen p-4 py-24">
+    <div id="skills" className="w-full sm:h-screen p-4 pt-24">
       <div className="max-w-[1280px] mx-auto flex flex-col justify-center h-full">
-        <h6>Skills</h6>
-        <h2 className="py-4">Résumé</h2>
+        <h6>Résumé</h6>
+        <h2 className="py-4">What I can do</h2>
         <section className="lg:grid grid-cols-3 mt-2 gap-6">
           <div className="col-span-2 sm:grid grid-cols-2 gap-6">
             <leftcol>
@@ -18,6 +18,7 @@ function Skills() {
                   alt="/"
                   width="200px"
                   height="200px"
+                  priority
                 />
               </div>
               <div className="p-2 mt-6 md:mt-12 rounded-xl shadow-lg shadow-gold-2">

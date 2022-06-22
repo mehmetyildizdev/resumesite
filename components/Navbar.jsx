@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Image from "next/image";
 import Link from "next/link";
 import {
   FaLinkedinIn,
   FaTwitter,
-  FaFacebook,
+  FaFacebookSquare,
   FaTelegramPlane,
   FaGithub,
   FaEnvelope,
@@ -18,6 +19,25 @@ import { AiOutlineClose, AiOutlineCloseCircle } from "react-icons/ai";
 function Navbar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#2E2E2E");
+  const [linkColor, setLinkColor] = useState("#F8F9FA");
+  const router = useRouter;
+
+  useEffect(() => {
+    if (
+      router.asPath === "/elvinediz" ||
+      router.asPath === "/temak" ||
+      router.asPath === "/gwctr" ||
+      router.asPath === "/tbtk" ||
+      router.asPath === "/symposium"
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#B76E79");
+    } else {
+      setNavBg("#2E2E2E");
+      setLinkColor("#F8F9FA");
+    }
+  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -36,18 +56,26 @@ function Navbar() {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 bg-dark-1 shadow-[0_15px_10px_-15px_rgba(255,255,255,0.3)] z-[100]"
-          : "fixed w-full h-20 bg-dark-1 z-[100]"
+          ? "fixed w-full h-20 shadow-[0_15px_10px_-15px_rgba(255,255,255,0.3)] z-[100]"
+          : "fixed w-full h-20 z-[100]"
       }
     >
       <div className="flex justify-between items-center  w-full p-2 2xl:px-16">
-        <Link href="#">
-          <Image src="/assets/logo-light.png" alt="/" width="240" height="60" />
+        <Link href="/">
+          <Image
+            src="/assets/logo-light.png"
+            alt="/"
+            width="240"
+            height="60"
+            loading="eager"
+            className="cursor-pointer"
+          />
         </Link>
         <div>
-          <ul className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/#">
               <li className="ml-10 text-md uppercase hover:border-b">Home</li>
             </Link>
@@ -151,7 +179,7 @@ function Navbar() {
                   target="_blank"
                 >
                   <div className="rounded-full shadow-lg shadow-gold-2 cursor-pointer p-2 hover:scale-105 ease-in duration-300">
-                    <FaFacebook className="text-gold-1 text-lg" />
+                    <FaFacebookSquare className="text-gold-1 text-lg" />
                   </div>
                 </a>
                 <a

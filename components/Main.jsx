@@ -2,15 +2,15 @@ import React from "react";
 import {
   FaLinkedinIn,
   FaTwitter,
-  FaFacebook,
-  FaTelegramPlane,
+  FaFacebookSquare,
+  FaTelegram,
   FaGithub,
   FaEnvelope,
 } from "react-icons/fa";
 
 function Main() {
   return (
-    <div id="hero" className="w-full h-screen text-center">
+    <div id="hero" className="w-full h-[90vh] pt-24 text-center">
       <div className="max-w-[1280px] w-full h-[105%] mx-auto p-2 flex justify-center items-center">
         <div>
           <div>
@@ -61,7 +61,7 @@ function Main() {
               target="_blank"
             >
               <div className="rounded-full shadow-lg shadow-gold-2 cursor-pointer p-5 hover:scale-105 ease-in duration-300">
-                <FaFacebook className="text-gold-1 text-3xl" />
+                <FaFacebookSquare className="text-gold-1 text-3xl" />
               </div>
             </a>
             <a
@@ -70,7 +70,7 @@ function Main() {
               target="_blank"
             >
               <div className="rounded-full shadow-lg shadow-gold-2 cursor-pointer p-5 hover:scale-105 ease-in duration-300">
-                <FaTelegramPlane className="text-gold-1 text-3xl" />
+                <FaTelegram className="text-gold-1 text-3xl" />
               </div>
             </a>
             <a

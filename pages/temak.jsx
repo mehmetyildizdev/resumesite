@@ -2,10 +2,15 @@ import Image from "next/image";
 import React from "react";
 import { FaRegSun } from "react-icons/fa";
 import Link from "next/link";
+import Heading from "../components/Heading";
 
 function temak() {
   return (
     <div className="w-full">
+      <Heading
+        title="Mehmet YILDIZ | Temak Altunizade Professional Car Care Systems"
+        description="Full-stack web development using Wordpress for Temak Altunizade Professional Car Care Systems"
+      />
       <div className="w-full h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80  z-10" />
         <Image

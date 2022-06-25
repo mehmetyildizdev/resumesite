@@ -1,9 +1,11 @@
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 import { AppProps } from "next/app";
+import Head from "next/app";
 import Script from "next/script";
+import Router, { useRouter } from "next/router";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <Script

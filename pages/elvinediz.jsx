@@ -2,10 +2,15 @@ import Image from "next/image";
 import React from "react";
 import { FaRegSun } from "react-icons/fa";
 import Link from "next/link";
+import Heading from "../components/Heading";
 
 function elvin() {
   return (
     <div className="w-full">
+      <Heading
+        title="Mehmet YILDIZ | Elvin Ediz Immigration Services"
+        description="Full-stack web development and web master services for Canada based Elvin Ediz Immigration Services"
+      />
       <div className="w-full h-[30vh] lg:h-[40vh] relative">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/90 z-10" />
         <Image

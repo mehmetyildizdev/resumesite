@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import tbtkImg from "../public/assets/projects/tbtk_sml.jpg";
 import gwctrImg from "../public/assets/projects/gwctr_sml.jpg";
@@ -17,25 +15,25 @@ function Projects() {
         <div className="grid md:grid-cols-2 gap-8">
           <Projectitem
             projecttitle="Türk Bilim Tarihi Derneği"
-            projectsubtitle="Wordpress, Multilanguage, Donations"
+            projectsubtitle="Wordpress, Multilingual, Donations"
             backgroundImg={tbtkImg}
             projectUrl="/tbtk"
           />
           <Projectitem
             projecttitle="Elvin Ediz Immigration Services"
-            projectsubtitle="Wordpress, Multilanguage, Booking, Dark Mode"
+            projectsubtitle="Wordpress, Multilingual, Booking, Dark Mode"
             backgroundImg={elvinImg}
             projectUrl="/elvinediz"
           />
           <Projectitem
             projecttitle="GoldWing Club Türkiye"
-            projectsubtitle="Wordpress, Multilanguage, Event, Membership"
+            projectsubtitle="Wordpress, Multilingual, Event, Membership"
             backgroundImg={gwctrImg}
             projectUrl="/gwctr"
           />
           <Projectitem
             projecttitle="Fuat Sezgin Symposium"
-            projectsubtitle="Wordpress, Multilanguage, SEO"
+            projectsubtitle="Wordpress, Multilingual, SEO"
             backgroundImg={symposiumImg}
             projectUrl="/symposium"
           />

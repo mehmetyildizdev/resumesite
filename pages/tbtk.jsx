@@ -17,7 +17,7 @@ function tbtk() {
         />
         <div className="absolute top-[70%] max-w-[1280px] w-full p-5 left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10">
           <h2 className="py-2">Türk Bilim Tarihi Kurumu</h2>
-          <h4>Wordpress, Multilanguage, Donations</h4>
+          <h4>Wordpress, Multilingual, Donations</h4>
         </div>
       </div>
       <div className="max-w-[1280px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -77,7 +77,7 @@ function tbtk() {
                 <FaRegSun className="pr-2" /> Wordpress
               </p>
               <p className="text-lightgold-1 py-2 flex items-center">
-                <FaRegSun className="pr-2" /> Multilanguage
+                <FaRegSun className="pr-2" /> Multilingual
               </p>
               <p className="text-lightgold-1 py-2 flex items-center">
                 <FaRegSun className="pr-2" /> Donations

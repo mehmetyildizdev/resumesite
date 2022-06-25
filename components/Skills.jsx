@@ -10,7 +10,7 @@ function Skills() {
         <h2 className="py-4">What I can do</h2>
         <section className="lg:grid grid-cols-3 mt-2 gap-6">
           <div className="col-span-2 sm:grid grid-cols-2 gap-6">
-            <leftcol>
+            <section>
               <div className=" shadow-lg shadow-gold-2 rounded-xl flex items-center justify-center py-8">
                 <Image
                   className="animation:bounce"
@@ -66,8 +66,8 @@ function Skills() {
                   </div>
                 </div>
               </div>
-            </leftcol>
-            <midcol>
+            </section>
+            <section>
               <div className="p-2 mt-6 sm:mt-0 rounded-xl shadow-lg shadow-gold-2">
                 <h3>Experience</h3>
                 <div className="py-4">
@@ -108,9 +108,9 @@ function Skills() {
                   </div>
                 </div>
               </div>
-            </midcol>
+            </section>
           </div>
-          <righcol>
+          <section>
             <div className="p-2 mt-6 sm:mt-0 rounded-xl shadow-lg shadow-gold-2 ">
               <h3>Skills</h3>
               <div>
@@ -242,7 +242,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-          </righcol>
+          </section>
         </section>
       </div>
     </div>

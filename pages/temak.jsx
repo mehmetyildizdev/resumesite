@@ -3,7 +3,7 @@ import React from "react";
 import { FaRegSun } from "react-icons/fa";
 import Link from "next/link";
 
-function tbtk() {
+function temak() {
   return (
     <div className="w-full">
       <div className="w-full h-[30vh] lg:h-[40vh] relative">
@@ -87,4 +87,4 @@ function tbtk() {
   );
 }
 
-export default tbtk;
+export default temak;

@@ -56,7 +56,7 @@ function Main() {
               </div>
             </a>
             <a
-              href="https://www.facebook.com/teknikmuhakkik/"
+              href="https://www.facebook.com/mehmetydev/"
               rel="noopener noreferrer"
               target="_blank"
             >

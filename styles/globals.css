@@ -43,3 +43,7 @@ html {
     @apply shadow-md shadow-light-3 uppercase rounded-xl bg-gradient-to-br from-rosegold-1 to-gold-2;
   }
 }
+
+.text-shadow {
+  text-shadow: 2px 2px 4px #000000;
+}

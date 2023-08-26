@@ -85,10 +85,8 @@ function Navbar() {
             <Link href="/#skills">
               <li className="ml-10 text-md uppercase hover:border-b">Résumé</li>
             </Link>
-            <Link href="https://blog.mehmetyildiz.dev">
-              <a rel="noopener" target="_blank">
-                <li className="ml-10 text-md uppercase hover:border-b">Blog</li>
-              </a>
+            <Link href="/blog">
+              <li className="ml-10 text-md uppercase hover:border-b">Blog</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
